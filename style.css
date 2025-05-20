@@ -734,7 +734,7 @@ span {
 @media (max-width: 600px) {
   /* Adjust header padding */
   .header {
-    padding: 2rem 5%;
+    padding: 1rem 5%;
     flex-wrap: wrap;
   }
   
@@ -759,6 +759,7 @@ span {
 
   .home-content h1 {
     font-size: 4.5rem;
+    margin-top: 5px;
   }
 
   .home-content h3 {
