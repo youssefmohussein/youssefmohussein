@@ -25,20 +25,29 @@
   <img src="https://img.shields.io/badge/MongoDB-4DB33D?style=for-the-badge&logo=mongodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java&logoColor=white"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  
 </p>
 
 ---
 
-## 📈 GitHub Activity (Placeholder)
+## 📊 GitHub Stats Preview
 
-| Metric             | Count |
-|-------------------|:-----:|
-| Commits           |   0   |
-| PRs               |   0   |
-| Issues Opened     |   0   |
-| Repositories      |   0   |
-| Contributed (Yr)  |   0   |
+| 🔧 Metric              | 🌟 Progress |
+|------------------------|-------------|
+| 🧠 Commits             | ▓░░░░░░░░░░░ 1% |
+| 🚀 Projects            | ▓▓░░░░░░░░░ 2/10 |
+| 🐛 Issues Opened       | ░░░░░░░░░░░ 0 |
+| 🔧 Pull Requests       | ░░░░░░░░░░░ 0 |
+| 🌍 Repositories        | ▓▓▓░░░░░░░░ 3 |
+| ⏳ Contributions (2024) | ░░░░░░░░░░░ 0 |
 
 📝 *Don’t worry — this will grow as I share more cool projects!*
+<img src="https://img.shields.io/badge/Commits-1-inactive?style=for-the-badge&color=gray" />
+<img src="https://img.shields.io/badge/Projects-2/10-orange?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/badge/Contributions-0-lightgray?style=for-the-badge" />
+<!-- Add these when you're active -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=youssefmohamed&layout=compact&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=youssefmohamed&show_icons=true&theme=tokyonight)
+
 
 ---
