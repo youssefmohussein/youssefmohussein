@@ -21,4 +21,4 @@ document.addEventListener('click', (e) => {
     navbar.classList.remove('active');
     menuIcon.classList.remove('bx-x');
   }
-});
+}); 
