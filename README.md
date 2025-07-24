@@ -11,7 +11,7 @@
 - ⚙️ I love debugging (well, love–hate relationship 😅)
 - 🧱 Currently building: real-world projects that mix design + logic
 - 🎓 Goal: Become a creative developer who writes clean, efficient code
-- 📬 Reach me: youssefhusseinn01@gmail.com
+- 📬 Reach me: youssefhusseinnn1@gmail.com
 
 ## 🛠️ Tech Stack
 
