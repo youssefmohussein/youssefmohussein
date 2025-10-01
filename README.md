@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Youssef Mohamed</h1>
-<h3 align="center">Full Stack Developer | Networking Enthusiast | Cybersecurity Learner</h3>
+<h3 align="center">Full Stack Developer | Cybersecurity Learner</h3>
 
 ---
 
