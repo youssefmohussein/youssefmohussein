@@ -1,6 +1,14 @@
 <h1 align="center">Hi 👋, I'm Youssef Mohamed</h1>
 <h3 align="center">Full Stack Developer | Cybersecurity Learner</h3>
+<h3 align="center">
+I'm a 3rd-year Computer Science student at Misr International University,  
+majoring in Cybersecurity. I build full-stack websites (front-end & back-end)  
+and love exploring new technologies and security tools.
+</h3>
 
+<p align="center">
+  <a href="https://youssefmohussein.github.io/youssefmohussein/" target="_blank">💻 Check out my portfolio</a>
+</p>
 ---
 
 ### 💻 Skills & Technologies
