@@ -1,15 +1,7 @@
 <h1 align="center">Hi 👋, I'm Youssef Mohamed</h1>
 <h3 align="center">Full Stack Developer | Networking Enthusiast | Cybersecurity Learner</h3>
 
----
 
-### 🏆 Achievements & Certifications
-- 🥇 **Cisco Networking Academy** – Cybersecurity Introduction  
-- 🎓 **TryHackMe** – Cyber Security 101  
-- 🚀 **Full Stack Projects** – Java, Node.js, React, MongoDB  
-- 🏅 GitHub Stars: ![GitHub Stars](https://img.shields.io/github/stars/yourusername?style=social)  
-
----
 
 ### 💻 Skills & Technologies
 <div>
@@ -25,15 +17,6 @@
 
 ---
 
----
-
-### 📊 GitHub Stats
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" />
-</div>
-
----
 
 ### 📫 Connect with Me
 <div>
