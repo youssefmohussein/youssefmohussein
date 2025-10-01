@@ -25,13 +25,6 @@
 
 ---
 
-### 🛠️ Projects
-| Project | Description | Link |
-|---------|-------------|------|
-| **E-Commerce System** | Full-stack Java project with cart, products, checkout | [Repo](https://github.com/yourusername/project1) |
-| **Jewelry Shop Web App** | Node.js, Express, MongoDB, EJS dynamic website | [Repo](https://github.com/yourusername/project2) |
-| **Network Security Dashboard** | OSINT + Cowrie honeypot + dashboard | [Repo](https://github.com/yourusername/project3) |
-
 ---
 
 ### 📊 GitHub Stats
