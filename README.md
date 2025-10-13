@@ -60,7 +60,12 @@ and love exploring new technologies and security tools.
 </div>
 
 ---
+## 🚀 Featured Projects  
+- 🛒 [Jewelry E-commerce Website](https://github.com/youssefmohussein/Jewelry-final-website.git) — Node.js + MongoDB + EJS  
+- 🤖 [Uni Link](https://github.com/youssefmohussein/Uni-Link.git) — Interactive chatbot with AI  
+- 🌐 [Portfolio Website](https://github.com/youssefmohussein/Website-Protflio.git) — Personal site built with React
 
+---
 ### 📫 Connect with Me
 <div align="center">
   <a href="https://www.linkedin.com/in/youssef-hussein-420297344/" target="_blank">
