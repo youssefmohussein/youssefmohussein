@@ -55,15 +55,18 @@ and love exploring new technologies and security tools.
 ### 📊 GitHub Stats
 <div align="center">
 
+  <!-- GitHub Stats -->
   <img height="150" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=youssefmohussein&show_icons=true&theme=radical&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
 
+  <!-- Top Languages -->
   <img height="150" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=youssefmohussein&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 ### 🔥 GitHub Streak
 <div align="center">
-  <img height="150" src="https://streak-stats.demolab.com?user=youssefmohussein&theme=radical" alt="GitHub Streak" />
+  <img height="150" src="https://streak-stats-github-readme.vercel.app/?user=youssefmohussein&theme=radical" alt="GitHub Streak" />
 </div>
+
 
 ### 🏆 GitHub Trophies
 <div align="center">
