@@ -55,13 +55,26 @@ and love exploring new technologies and security tools.
 ### 📊 GitHub Stats
 <div align="center">
 
-  <!-- GitHub Stats -->
-  <img height="150" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=youssefmohussein&show_icons=true&theme=radical&include_all_commits=true&rank_icon=github" alt="Youssef Mohamed's GitHub stats" />
+  <img height="150" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=youssefmohussein&show_icons=true&theme=radical&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
 
-  <!-- Top Languages -->
   <img height="150" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=youssefmohussein&layout=compact&theme=radical" alt="Top Languages" />
-
 </div>
+
+### 🔥 GitHub Streak
+<div align="center">
+  <img height="150" src="https://streak-stats.demolab.com?user=youssefmohussein&theme=radical" alt="GitHub Streak" />
+</div>
+
+### 🏆 GitHub Trophies
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=youssefmohussein&theme=radical&no-bg=true&no-frame=true" alt="GitHub Trophies" />
+</div>
+
+### 🌱 Contribution Graph
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=youssefmohussein&theme=radical" alt="Contribution Graph" />
+</div>
+
 
 
 ---
