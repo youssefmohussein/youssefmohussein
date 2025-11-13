@@ -54,9 +54,8 @@ and love exploring new technologies and security tools.
 ---
 
 ### 📊 GitHub Stats
-<div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=youssefmohussein&show_icons=true&theme=radical&include_all_commits=true" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=youssefmohussein&layout=compact&theme=radical" />
+<div align="center"><img height="150" src="https://github-readme-stats.vercel.app/api?username=youssefmohussein&show_icons=true&theme=radical&include_all_commits=true" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=youssefmohussein&layout=compact&theme=radical" />
 </div>
 
 ---
