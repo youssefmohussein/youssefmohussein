@@ -52,31 +52,42 @@ and love exploring new technologies and security tools.
 
 
 ---
-### 📊 GitHub Stats
+---
+
+### 📊 GitHub Overview
 <div align="center">
 
-  <!-- GitHub Stats -->
-  <img height="150" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=youssefmohussein&show_icons=true&theme=radical&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
+  <!-- Profile Summary -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youssefmohussein&theme=radical" alt="GitHub Summary" />
+  <br/>
 
-  <!-- Top Languages -->
-  <img height="150" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=youssefmohussein&layout=compact&theme=radical" alt="Top Languages" />
+  <!-- Repo & Language Stats -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youssefmohussein&theme=radical" alt="Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=youssefmohussein&theme=radical" alt="Most Commit Language" />
+  <br/>
+
+  <!-- Contribution & Stats -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=youssefmohussein&theme=radical" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=youssefmohussein&theme=radical&utcOffset=2" alt="Productive Time" />
 </div>
 
-### 🔥 GitHub Streak
-<div align="center">
-  <img height="150" src="https://streak-stats-github-readme.vercel.app/?user=youssefmohussein&theme=radical" alt="GitHub Streak" />
-</div>
+---
 
-
-### 🏆 GitHub Trophies
+### 🏆 GitHub Achievements
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=youssefmohussein&theme=radical&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </div>
 
-### 🌱 Contribution Graph
+---
+
+### 🧠 Quick Stats Badges
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=youssefmohussein&theme=radical" alt="Contribution Graph" />
+  <img src="https://img.shields.io/github/followers/youssefmohussein?label=Followers&style=for-the-badge&logo=github&color=red" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/youssefmohussein?label=Stars&style=for-the-badge&logo=github&color=yellow" alt="Stars" />
+  <img src="https://img.shields.io/github/last-commit/youssefmohussein/Jewelry-final-website?style=for-the-badge&color=green" alt="Last Commit" />
 </div>
+
+---
 
 
 
