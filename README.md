@@ -53,6 +53,17 @@ and love exploring new technologies and security tools.
 
 ---
 ---
+### 📊 GitHub Statistics
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youssefmohussein&theme=radical" />
+<br/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youssefmohussein&theme=radical" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=youssefmohussein&theme=radical" />
+
+</div>
 
 ### 📊 GitHub Overview
 <div align="center">
