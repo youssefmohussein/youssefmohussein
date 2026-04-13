@@ -72,14 +72,7 @@ and love exploring new technologies and security tools.
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youssefmohussein&theme=radical" alt="GitHub Summary" />
   <br/>
 
-  <!-- Repo & Language Stats -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youssefmohussein&theme=radical" alt="Languages" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=youssefmohussein&theme=radical" alt="Most Commit Language" />
-  <br/>
 
-  <!-- Contribution & Stats -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=youssefmohussein&theme=radical" alt="Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=youssefmohussein&theme=radical&utcOffset=2" alt="Productive Time" />
 </div>
 
 ---
