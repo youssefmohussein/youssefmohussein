@@ -65,22 +65,9 @@ and love exploring new technologies and security tools.
 <br/>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youssefmohussein&theme=radical" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=youssefmohussein&theme=radical" />
 
-</div>
-  <!-- Profile Summary -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youssefmohussein&theme=radical" alt="GitHub Summary" />
-  <br/>
-
-
-</div>
 
 ---
-
-### 🏆 GitHub Achievements
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=youssefmohussein&theme=radical&no-bg=true&no-frame=true" alt="GitHub Trophies" />
-</div>
 
 ---
 
