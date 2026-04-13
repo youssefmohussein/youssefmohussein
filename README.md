@@ -62,7 +62,6 @@ and love exploring new technologies and security tools.
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youssefmohussein&theme=radical" />
-<br/>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youssefmohussein&theme=radical" />
 
