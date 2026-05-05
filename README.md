@@ -1,100 +1,124 @@
 <h1 align="center">Hi 👋, I'm Youssef Mohamed</h1>
-<h3 align="center">Full Stack Developer | Cybersecurity Learner</h3>
-<h3 align="center">
-I'm a 3rd-year Computer Science student at Misr International University,  
-majoring in Cybersecurity. I build full-stack websites (front-end & back-end)  
-and love exploring new technologies and security tools.
-</h3>
 
 <p align="center">
-  <a href="https://youssef-portfolio-pearl.vercel.app/" target="_blank">💻 Check out my portfolio</a>
+  <b>• Cybersecurity & Infrastructure Enthusiast   •Full Stack Developer  </b><br>
+  Building secure systems, scalable web apps, and exploring modern security engineering
 </p>
 
-
-### 💻 Skills & Technologies
-
-#### 🖥️ Programming Languages
-<div>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</div>
-
-#### 🗄️ Databases
-<div>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/XAMPP-FCB826?style=for-the-badge&logo=xampp&logoColor=white" />
-</div>
-
-#### 🖥️ Frameworks & Libraries
-<div>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-</div>
-
-#### 🌐 Networking & Security
-<div>
-  <img src="https://img.shields.io/badge/CCNA-EF6E00?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" />
-</div>
-
-#### 🛠️ Tools & Version Control
-<div>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</div>
-
-
-
----
----
-
-
-### 📊 GitHub Overview
-<div align="center">
-### 📊 GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=youssefmohussein&theme=radical" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=youssefmohussein&theme=radical" />
-
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Full+Stack+Developer;Cybersecurity+Enthusiast;Network+%7C+Linux+%7C+Cloud;Secure+System+Builder&center=true&width=550&height=45">
+</p>
 
 ---
 
----
+## 🧠 About Me
 
-### 🧠 Quick Stats Badges
-<div align="center">
-  <img src="https://img.shields.io/github/followers/youssefmohussein?label=Followers&style=for-the-badge&logo=github&color=red" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/youssefmohussein?label=Stars&style=for-the-badge&logo=github&color=yellow" alt="Stars" />
-  <img src="https://img.shields.io/github/last-commit/youssefmohussein/Jewelry-final-website?style=for-the-badge&color=green" alt="Last Commit" />
-</div>
-
----
-
-
+- 🎓 Computer Science student (Cybersecurity track) at MIU  
+- 🔐 Interested in **Cybersecurity, SOC, and Infrastructure Security**  
+- 🌐 Full-stack developer building real-world secure applications  
+- 🧪 Passionate about **networks, Linux systems, and cloud fundamentals**  
+- 🚀 Focused on building systems that are **secure by design**
 
 ---
-## 🚀 Featured Projects  
-- 🛒 [Jewelry E-commerce Website](https://github.com/youssefmohussein/Jewelry-final-website.git) — Node.js + MongoDB + EJS  
-- 🤖 [Uni Link](https://github.com/youssefmohussein/Uni-Link.git) — Interactive chatbot with AI  
-- 🌐 [Portfolio Website](https://github.com/youssefmohussein/Website-Protflio.git) — Personal site built with React
+
+## ⚙️ What I Work On
+
+- 🔐 Secure web applications (authentication, APIs, backend logic)
+- 🌐 Network design & simulation (VLANs, routing, segmentation)
+- 🖥 Linux system administration & security hardening
+- 📊 Security monitoring concepts (logs, detection basics)
+- ☁ Cloud fundamentals (AWS architecture basics)
 
 ---
-### 📫 Connect with Me
-<div align="center">
-  <a href="https://www.linkedin.com/in/youssef-hussein-420297344/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+
+## 🧰 Tech Stack
+
+### 💻 Languages
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,java,python,js,php"/>
+</p>
+
+### 🌐 Web Development
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,react,html,css"/>
+</p>
+
+### 🗄 Databases
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql"/>
+</p>
+
+### 🛠 Tools & Systems
+<p>
+<img src="https://skillicons.dev/icons?i=linux,git,github,postman"/>
+</p>
+
+---
+
+## 🚀 Projects
+
+### 🔐 Enterprise Network Security Lab
+- Designed VLAN-based segmented network architecture  
+- Configured STP & EtherChannel for redundancy  
+- Applied Linux hardening and firewall rules  
+- Performed log analysis for suspicious activity detection  
+- Simulated vulnerability scanning in controlled environments  
+
+---
+
+### 🛒 Secure E-Commerce Platform (MERN)
+- Full-stack application with authentication system  
+- JWT-based secure login & protected routes  
+- Backend validation and API security  
+- Clean RESTful architecture  
+
+---
+
+### 🌐 Network Simulation (Cisco Packet Tracer)
+- Multi-subnet enterprise network design  
+- VLANs, DHCP, NAT, routing configuration  
+- Verified segmentation and connectivity  
+
+---
+
+## 📜 Certifications
+
+- Red Hat System Administration I (RH124)  
+- AWS Cloud Architecting (In Progress)  
+- Huawei Computer Networks  
+- IBM Cybersecurity Fundamentals  
+- Cisco CCNA – Introduction to Networks  
+- TryHackMe Cyber Security 101  
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=youssefmohussein&theme=radical" />
+</p>
+
+---
+
+## 🎯 Current Focus
+
+- Strengthening cybersecurity & SOC fundamentals  
+- Building secure full-stack systems  
+- Learning cloud & infrastructure security  
+- Expanding real-world security engineering skills  
+
+---
+
+## 🌍 Connect with Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/youssef-hussein-420297344/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
   </a>
   <a href="mailto:youssefhusseinnn1@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail"/>
   </a>
- 
-</div>
+  <a href="https://youssef-portfolio-pearl.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel"/>
+  </a>
+</p>
