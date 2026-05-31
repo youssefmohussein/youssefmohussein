@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Youssef Mohamed Hussein // CYBERSEC ENGINEER</title>
+<title>Youssef Mohamed Hussein — Cybersecurity Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -11,8 +11,21 @@
 </head>
 <body>
 
+<!-- Scroll progress -->
+<div id="scroll-progress"></div>
+
+<!-- Ambient background orbs -->
+<div class="ambient-bg" aria-hidden="true">
+  <div class="amb-orb orb-1"></div>
+  <div class="amb-orb orb-2"></div>
+  <div class="amb-orb orb-3"></div>
+</div>
+
+<!-- Custom cursor -->
 <div id="cursor"></div>
 <div id="cursor-ring"></div>
+
+<!-- Matrix rain -->
 <canvas id="matrix-canvas"></canvas>
 
 <!-- NAV -->
@@ -25,9 +38,12 @@
     <li><a href="#experience" data-num="04">Experience</a></li>
     <li><a href="#contact" data-num="05">Contact</a></li>
   </ul>
-  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-    <span></span><span></span><span></span>
-  </button>
+  <div class="nav-right">
+    <a href="mailto:youssefhusseinnn1@gmail.com" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
 </nav>
 
 <div class="mobile-menu" id="mobileMenu">
@@ -42,6 +58,7 @@
 
 <!-- HERO -->
 <section id="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
   <div class="hero-wrap">
     <div class="hero-left">
       <div class="status-bar">
@@ -62,8 +79,14 @@
       <p class="h-desc">Cybersecurity engineer building secure infrastructure from the ground up. 3rd-year CS student with a red-team mindset and a founder's instinct.</p>
 
       <div class="h-cta">
-        <a href="#projects" class="btn btn-primary"><span>&gt;</span> View Projects</a>
-        <a href="#contact" class="btn btn-ghost"><span>//</span> Get In Touch</a>
+        <a href="#projects" class="btn btn-primary">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9,18 15,12 9,6"/></svg>
+          View Projects
+        </a>
+        <a href="#contact" class="btn btn-ghost">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          Get In Touch
+        </a>
       </div>
 
       <div class="h-stats">
@@ -94,11 +117,12 @@
         <div class="term-bar">
           <div class="t-dots"><span class="td red"></span><span class="td yellow"></span><span class="td green"></span></div>
           <span class="t-title">youssef@sec-lab:~$</span>
+          <span class="t-live"><span class="t-live-dot"></span>LIVE</span>
         </div>
         <div class="term-body">
           <div class="tl"><span class="tp">$</span><span class="tc">whoami</span></div>
           <div class="tl to">youssef-m-hussein</div>
-          <div class="tl"><span class="tp">$</span><span class="tc">cat profile.json</span></div>
+          <div class="tl mt-sm"><span class="tp">$</span><span class="tc">cat profile.json</span></div>
           <div class="tl to">{</div>
           <div class="tl to ti"><span class="tk">"role"</span>: <span class="tv">"Cybersecurity Engineer"</span>,</div>
           <div class="tl to ti"><span class="tk">"focus"</span>: <span class="tv">"SOC / Pentesting / Infra"</span>,</div>
@@ -106,7 +130,14 @@
           <div class="tl to ti"><span class="tk">"status"</span>: <span class="tv tg">"seeking_internship"</span>,</div>
           <div class="tl to ti"><span class="tk">"oscp"</span>: <span class="tv">"in_progress"</span></div>
           <div class="tl to">}</div>
-          <div class="tl"><span class="tp">$</span><span class="tcb">_</span></div>
+          <div class="tl mt-sm"><span class="tp">$</span><span class="tc">ls certifications/</span></div>
+          <div class="tl to cert-line">
+            <span class="cert-file">rhel.cert</span>
+            <span class="cert-file">aws-arch.cert</span>
+            <span class="cert-file">ccna.cert</span>
+            <span class="cert-file">capt.cert</span>
+          </div>
+          <div class="tl mt-sm"><span class="tp">$</span><span class="tcb">_</span></div>
         </div>
       </div>
     </div>
@@ -127,16 +158,10 @@
     <div class="about-grid">
       <div class="about-left">
         <div class="profile-frame">
-        
-
-            <img src="photo.jpg" alt="Youssef Mohamed Hussein" class="profile-img">
-          
-          <!-- <div class="profile-ph">
-            <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-            <span>YMH</span>
-          </div> -->
+          <img src="photo.jpg" alt="Youssef Mohamed Hussein" class="profile-img">
           <div class="fc tl"></div><div class="fc tr"></div>
           <div class="fc bl"></div><div class="fc br"></div>
+          <div class="profile-scan"></div>
         </div>
         <div class="q-info">
           <div class="qi"><span class="qi-ic">&gt;</span><span class="qi-k">Location</span><span class="qi-v">Cairo, Egypt</span></div>
@@ -151,9 +176,33 @@
         <p>Beyond the technical side, I lead teams. As Head of HR at ACPC, Co-Head of Technical at MISP, and Head of Events at IEEE — I've learned that <strong>security systems and human systems</strong> have more in common than most engineers admit.</p>
         <p>Currently pursuing AWS Cloud Architecting and building toward OSCP. Based in Cairo, open to remote and regional opportunities.</p>
         <div class="traits">
-          <div class="trait"><span class="trait-ic">#</span><div><div class="trait-t">Systems-builder mentality</div><div class="trait-d">Designs ecosystems, not isolated tools. Thinks in layers, modules, trust boundaries.</div></div></div>
-          <div class="trait"><span class="trait-ic">#</span><div><div class="trait-t">Security-first architecture</div><div class="trait-d">Every system starts with the threat model. Offense informs defense.</div></div></div>
-          <div class="trait"><span class="trait-ic">#</span><div><div class="trait-t">High curiosity, fast iteration</div><div class="trait-d">Moves across security → cloud → infra → dev without losing depth.</div></div></div>
+          <div class="trait">
+            <div class="trait-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <div class="trait-t">Systems-builder mentality</div>
+              <div class="trait-d">Designs ecosystems, not isolated tools. Thinks in layers, modules, trust boundaries.</div>
+            </div>
+          </div>
+          <div class="trait">
+            <div class="trait-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <div>
+              <div class="trait-t">Security-first architecture</div>
+              <div class="trait-d">Every system starts with the threat model. Offense informs defense.</div>
+            </div>
+          </div>
+          <div class="trait">
+            <div class="trait-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22,12 18,12 15,21 9,3 6,12 2,12"/></svg>
+            </div>
+            <div>
+              <div class="trait-t">High curiosity, fast iteration</div>
+              <div class="trait-d">Moves across security → cloud → infra → dev without losing depth.</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -169,7 +218,12 @@
     </div>
     <div class="skills-grid">
       <div class="sg">
-        <div class="sg-hd"><span class="sg-n">01</span><span class="sg-t">CYBERSECURITY</span></div>
+        <div class="sg-hd">
+          <span class="sg-ic">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </span>
+          <span class="sg-n">01</span><span class="sg-t">CYBERSECURITY</span>
+        </div>
         <div class="tags">
           <span class="tag hi">Network Segmentation</span><span class="tag hi">Penetration Testing</span>
           <span class="tag">Access Control</span><span class="tag">Vulnerability Assessment</span>
@@ -178,7 +232,12 @@
         </div>
       </div>
       <div class="sg">
-        <div class="sg-hd"><span class="sg-n">02</span><span class="sg-t">NETWORKING</span></div>
+        <div class="sg-hd">
+          <span class="sg-ic">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </span>
+          <span class="sg-n">02</span><span class="sg-t">NETWORKING</span>
+        </div>
         <div class="tags">
           <span class="tag hi">TCP/IP</span><span class="tag hi">VLANs</span>
           <span class="tag">VLSM</span><span class="tag">NAT / DHCP</span>
@@ -187,7 +246,12 @@
         </div>
       </div>
       <div class="sg">
-        <div class="sg-hd"><span class="sg-n">03</span><span class="sg-t">SYSTEMS & CLOUD</span></div>
+        <div class="sg-hd">
+          <span class="sg-ic">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16,18 22,12 16,6"/><polyline points="8,6 2,12 8,18"/></svg>
+          </span>
+          <span class="sg-n">03</span><span class="sg-t">SYSTEMS & CLOUD</span>
+        </div>
         <div class="tags">
           <span class="tag hi">Red Hat RHEL</span><span class="tag hi">AWS EC2 / VPC / IAM</span>
           <span class="tag">Linux CLI</span><span class="tag">Service Configuration</span>
@@ -195,7 +259,12 @@
         </div>
       </div>
       <div class="sg">
-        <div class="sg-hd"><span class="sg-n">04</span><span class="sg-t">DEVELOPMENT</span></div>
+        <div class="sg-hd">
+          <span class="sg-ic">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/><line x1="2" y1="20" x2="2.01" y2="20"/></svg>
+          </span>
+          <span class="sg-n">04</span><span class="sg-t">DEVELOPMENT</span>
+        </div>
         <div class="tags">
           <span class="tag hi">Python</span><span class="tag">JavaScript</span>
           <span class="tag">C++</span><span class="tag">Java</span>
@@ -204,7 +273,12 @@
         </div>
       </div>
       <div class="sg">
-        <div class="sg-hd"><span class="sg-n">05</span><span class="sg-t">TOOLS</span></div>
+        <div class="sg-hd">
+          <span class="sg-ic">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          </span>
+          <span class="sg-n">05</span><span class="sg-t">TOOLS</span>
+        </div>
         <div class="tags">
           <span class="tag hi">TryHackMe</span><span class="tag hi">Hackviser</span>
           <span class="tag">Postman</span><span class="tag">CRM Systems</span>
@@ -212,7 +286,12 @@
         </div>
       </div>
       <div class="sg">
-        <div class="sg-hd"><span class="sg-n">06</span><span class="sg-t">LANGUAGES</span></div>
+        <div class="sg-hd">
+          <span class="sg-ic">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8l6 6 6-6"/></svg>
+          </span>
+          <span class="sg-n">06</span><span class="sg-t">LANGUAGES</span>
+        </div>
         <div class="tags">
           <span class="tag lang">Arabic — Native</span>
           <span class="tag lang">English — Excellent</span>
@@ -232,33 +311,52 @@
     </div>
     <div class="proj-grid">
 
-      <article class="pcard">
-        <div class="pc-top"><span class="pc-n">P.01</span><span class="pc-badge badge-red">Security Lab</span></div>
-        <h3 class="pc-title">Enterprise IT Infrastructure & Security Implementation</h3>
-        <p class="pc-desc">This project involved designing, deploying, and securing a complete enterprise IT infrastructure from scratch.
-          The network team implemented VLANs, subnetting, DHCP, STP, EtherChannel, ACLs, and Cisco switch configurations.
-          The server administration team built and hardened Ubuntu servers with reverse proxy load balancing and secure web infrastructure.
-          The cybersecurity teams performed penetration testing, ethical hacking, vulnerability assessments, exploitation simulations, and security reporting.
-          The project simulated a real enterprise environment where infrastructure and security teams collaborated to build a resilient and secure system.
-        </p>
-        <div class="pc-tags"><span>Enterprise IT Infrastructure</span><span>Cybersecurity Operations</span><span>Network Engineering</span><span>Server Administration</span><span>Penetration Testing</span><span>Ethical Hacking</span></div>
-        <div class="pc-foot"><span class="pc-st"><span class="psd"></span>Completed</span><span class="pc-arr">↗</span></div>
+      <article class="pcard pcard-featured">
+        <div class="pcard-glow" aria-hidden="true"></div>
+        <div class="pf-left">
+          <div class="pc-top">
+            <span class="pc-n">P.01</span>
+          </div>
+          <div class="pc-badges" style="margin-top:12px">
+            <span class="pc-badge badge-red">Security Lab</span>
+            <span class="pc-badge badge-featured">Featured</span>
+          </div>
+          <div class="pf-left-bottom">
+            <div class="pc-tags">
+              <span>Enterprise IT</span><span>Cybersecurity Ops</span>
+              <span>Network Engineering</span><span>Server Admin</span>
+              <span>Pentesting</span><span>Ethical Hacking</span>
+            </div>
+            <div class="pc-foot" style="margin-top:20px">
+              <span class="pc-st"><span class="psd"></span>Completed</span>
+              <span class="pc-arr">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="pf-right">
+          <h3 class="pc-title">Enterprise IT Infrastructure &amp; Security Implementation</h3>
+          <p class="pc-desc">Designed, deployed, and secured a complete enterprise IT infrastructure from scratch. The network team implemented VLANs, subnetting, DHCP, STP, EtherChannel, ACLs, and Cisco switch configurations. The server administration team built and hardened Ubuntu servers with reverse proxy load balancing and secure web infrastructure. The cybersecurity teams performed penetration testing, ethical hacking, vulnerability assessments, exploitation simulations, and security reporting — simulating a real enterprise environment where infrastructure and security teams collaborated to build a resilient and secure system.</p>
+        </div>
       </article>
 
       <article class="pcard">
+        <div class="pcard-glow" aria-hidden="true"></div>
         <div class="pc-top"><span class="pc-n">P.02</span><span class="pc-badge badge-purple">Full Stack</span></div>
         <h3 class="pc-title">Secure E-Commerce Platform</h3>
         <p class="pc-desc">Built a production-grade MERN stack application with role-based access control, JWT authentication, and hardened backend security. Implemented protected routes, secure password handling, backend input validation, and structured RESTful APIs — applying web application security principles throughout the stack.</p>
         <div class="pc-tags"><span>MERN Stack</span><span>JWT</span><span>RBAC</span><span>REST API</span><span>Input Validation</span></div>
-        <div class="pc-foot"><span class="pc-st"><span class="psd"></span>Completed</span><span class="pc-arr">↗</span></div>
+        <div class="pc-foot"><span class="pc-st"><span class="psd"></span>Completed</span><span class="pc-arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></span></div>
       </article>
 
       <article class="pcard">
+        <div class="pcard-glow" aria-hidden="true"></div>
         <div class="pc-top"><span class="pc-n">P.03</span><span class="pc-badge badge-cyan">Network Sim</span></div>
         <h3 class="pc-title">Multi-Subnet Enterprise Network Design</h3>
         <p class="pc-desc">Simulated complex enterprise topologies in Cisco Packet Tracer featuring VLANs, NAT, DHCP, and dynamic routing. Verified network segmentation isolation, inter-VLAN routing policies, and end-to-end connectivity across simulated attack and fault scenarios.</p>
         <div class="pc-tags"><span>Cisco Packet Tracer</span><span>VLANs</span><span>NAT / DHCP</span><span>Routing</span><span>Segmentation Testing</span></div>
-        <div class="pc-foot"><span class="pc-st"><span class="psd"></span>Completed</span><span class="pc-arr">↗</span></div>
+        <div class="pc-foot"><span class="pc-st"><span class="psd"></span>Completed</span><span class="pc-arr"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg></span></div>
       </article>
 
     </div>
@@ -318,14 +416,46 @@
       <div class="certs-col">
         <div class="col-lbl">// CERTIFICATIONS</div>
         <div class="cert-list">
-          <div class="cert"><div class="cdot c-cyan"></div><div class="ci"><div class="cn">Red Hat System Administration I (RH124)</div><div class="ciss">Red Hat Training</div></div><div class="cy">2026</div></div>
-          <div class="cert"><div class="cdot c-purple"></div><div class="ci"><div class="cn">AWS Academy Cloud Architecting</div><div class="ciss">Amazon Web Services — In Progress</div></div><div class="cy">2026</div></div>
-          <div class="cert"><div class="cdot c-cyan"></div><div class="ci"><div class="cn">Computer Networks V1.0</div><div class="ciss">Huawei Academy</div></div><div class="cy">2026</div></div>
-          <div class="cert"><div class="cdot c-purple"></div><div class="ci"><div class="cn">Cybersecurity Fundamentals</div><div class="ciss">IBM SkillsBuild</div></div><div class="cy">2026</div></div>
-          <div class="cert"><div class="cdot c-red"></div><div class="ci"><div class="cn">Certified Associate Penetration Tester (CAPT)</div><div class="ciss">Hackviser</div></div><div class="cy">2026</div></div>
-          <div class="cert"><div class="cdot c-red"></div><div class="ci"><div class="cn">Cyber Security 101</div><div class="ciss">TryHackMe</div></div><div class="cy">2025</div></div>
-          <div class="cert"><div class="cdot c-cyan"></div><div class="ci"><div class="cn">CCNA: Introduction to Networks</div><div class="ciss">Cisco</div></div><div class="cy">2025</div></div>
-          <div class="cert"><div class="cdot c-cyan"></div><div class="ci"><div class="cn">Python Essentials 1 & 2</div><div class="ciss">Cisco</div></div><div class="cy">2025</div></div>
+          <div class="cert">
+            <div class="cdot c-cyan"></div>
+            <div class="ci"><div class="cn">Red Hat System Administration I (RH124)</div><div class="ciss">Red Hat Training</div></div>
+            <div class="cy">2026</div>
+          </div>
+          <div class="cert">
+            <div class="cdot c-purple"></div>
+            <div class="ci"><div class="cn">AWS Academy Cloud Architecting</div><div class="ciss">Amazon Web Services — In Progress</div></div>
+            <div class="cy">2026</div>
+          </div>
+          <div class="cert">
+            <div class="cdot c-cyan"></div>
+            <div class="ci"><div class="cn">Computer Networks V1.0</div><div class="ciss">Huawei Academy</div></div>
+            <div class="cy">2026</div>
+          </div>
+          <div class="cert">
+            <div class="cdot c-purple"></div>
+            <div class="ci"><div class="cn">Cybersecurity Fundamentals</div><div class="ciss">IBM SkillsBuild</div></div>
+            <div class="cy">2026</div>
+          </div>
+          <div class="cert">
+            <div class="cdot c-red"></div>
+            <div class="ci"><div class="cn">Certified Associate Penetration Tester (CAPT)</div><div class="ciss">Hackviser</div></div>
+            <div class="cy">2026</div>
+          </div>
+          <div class="cert">
+            <div class="cdot c-red"></div>
+            <div class="ci"><div class="cn">Cyber Security 101</div><div class="ciss">TryHackMe</div></div>
+            <div class="cy">2025</div>
+          </div>
+          <div class="cert">
+            <div class="cdot c-cyan"></div>
+            <div class="ci"><div class="cn">CCNA: Introduction to Networks</div><div class="ciss">Cisco</div></div>
+            <div class="cy">2025</div>
+          </div>
+          <div class="cert">
+            <div class="cdot c-cyan"></div>
+            <div class="ci"><div class="cn">Python Essentials 1 &amp; 2</div><div class="ciss">Cisco</div></div>
+            <div class="cy">2025</div>
+          </div>
         </div>
       </div>
     </div>
@@ -335,28 +465,48 @@
 <!-- CONTACT -->
 <section id="contact">
   <div class="container">
-    <div class="contact-box">
-      <div class="term-bar">
-        <div class="t-dots"><span class="td red"></span><span class="td yellow"></span><span class="td green"></span></div>
-        <span class="t-title">contact.sh</span>
-      </div>
-      <div class="contact-body">
-        <div class="ct-tag">// 05 — LET'S CONNECT</div>
+    <div class="contact-inner">
+      <div class="ct-left">
+        <div class="ct-eyebrow">// 05 — LET'S CONNECT</div>
         <h2 class="ct-heading">Ready to build<br><em>something secure.</em></h2>
         <p class="ct-sub">Open to SOC analyst roles, security engineering internships, and collaborative projects in cybersecurity and infrastructure.</p>
         <div class="ct-links">
           <a href="mailto:youssefhusseinnn1@gmail.com" class="ct-btn">
-            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-            youssefhusseinnn1@gmail.com
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            <span>youssefhusseinnn1@gmail.com</span>
+            <svg class="ct-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
           </a>
           <a href="tel:+201280550333" class="ct-btn">
-            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-            +20 128 055 0333
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+            <span>+20 128 055 0333</span>
+            <svg class="ct-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
           </a>
           <a href="https://linkedin.com" target="_blank" rel="noopener" class="ct-btn">
-            <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
-            LinkedIn Profile
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            <span>LinkedIn Profile</span>
+            <svg class="ct-arr" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
           </a>
+        </div>
+      </div>
+      <div class="ct-right">
+        <div class="ct-terminal">
+          <div class="term-bar">
+            <div class="t-dots"><span class="td red"></span><span class="td yellow"></span><span class="td green"></span></div>
+            <span class="t-title">contact.sh</span>
+          </div>
+          <div class="term-body">
+            <div class="tl"><span class="tp">$</span><span class="tc">./reach_out.sh</span></div>
+            <div class="tl to">Initializing secure channel...</div>
+            <div class="tl to"><span class="tg">✓</span> Email encrypted</div>
+            <div class="tl to"><span class="tg">✓</span> LinkedIn verified</div>
+            <div class="tl to"><span class="tg">✓</span> Response time: &lt;24h</div>
+            <div class="tl mt-sm"><span class="tp">$</span><span class="tc">cat availability.txt</span></div>
+            <div class="tl to">Internship: <span class="tg">OPEN</span></div>
+            <div class="tl to">Full-time: <span class="tv">2027</span></div>
+            <div class="tl to">Remote: <span class="tg">YES</span></div>
+            <div class="tl to">On-site Cairo: <span class="tg">YES</span></div>
+            <div class="tl mt-sm"><span class="tp">$</span><span class="tcb">_</span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -367,9 +517,17 @@
   <div class="ft-left">
     <span class="ft-logo">[YMH]</span>
     <span class="ft-sep">//</span>
-    <span class="ft-copy">© 2025 Youssef Mohamed Hussein</span>
+    <span class="ft-copy">© 2026 Youssef Mohamed Hussein</span>
   </div>
-  <div class="ft-right">Built with intent. Secured by design.</div>
+  <div class="ft-center">Built with intent. Secured by design.</div>
+  <div class="ft-right">
+    <a href="mailto:youssefhusseinnn1@gmail.com" class="ft-link" aria-label="Email">
+      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+    </a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener" class="ft-link" aria-label="LinkedIn">
+      <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+  </div>
 </footer>
 
 <script src="script.js"></script>

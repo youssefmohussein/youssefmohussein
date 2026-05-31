@@ -10,12 +10,20 @@ document.addEventListener('mousemove', e => {
 });
 
 (function animRing() {
-  rx += (mx - rx) * 0.12;
-  ry += (my - ry) * 0.12;
+  rx += (mx - rx) * 0.10;
+  ry += (my - ry) * 0.10;
   ring.style.left = rx + 'px';
   ring.style.top  = ry + 'px';
   requestAnimationFrame(animRing);
 })();
+
+/* ===== SCROLL PROGRESS ===== */
+const progressBar = document.getElementById('scroll-progress');
+window.addEventListener('scroll', () => {
+  const scrollTop = document.documentElement.scrollTop;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  progressBar.style.width = (scrollTop / scrollHeight * 100) + '%';
+}, { passive: true });
 
 /* ===== MATRIX RAIN ===== */
 const canvas = document.getElementById('matrix-canvas');
@@ -32,26 +40,25 @@ window.addEventListener('resize', () => {
   drops = Array.from({ length: cols }, () => Math.random() * -80);
 });
 
-const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789ABCDEF<>{}[]|/\\$#@%^&*';
+const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノ0123456789ABCDEF<>{}[]|/\\$#@%';
 const fSize = 14;
 let cols  = Math.floor(canvas.width / fSize);
 let drops = Array.from({ length: cols }, () => Math.random() * -80);
 
 function drawMatrix() {
-  ctx.fillStyle = 'rgba(2,4,8,0.05)';
+  ctx.fillStyle = 'rgba(5,9,19,0.06)';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.font = `${fSize}px 'JetBrains Mono', monospace`;
-
   drops.forEach((y, i) => {
     const char = chars[Math.floor(Math.random() * chars.length)];
-    const opacity = Math.random() > 0.5 ? 0.9 : 0.4;
+    const opacity = Math.random() > 0.5 ? 0.85 : 0.3;
     ctx.fillStyle = `rgba(0,255,136,${opacity})`;
     ctx.fillText(char, i * fSize, y * fSize);
     if (y * fSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
     drops[i]++;
   });
 }
-setInterval(drawMatrix, 52);
+setInterval(drawMatrix, 55);
 
 /* ===== TYPING ANIMATION ===== */
 const roles = [
@@ -71,11 +78,9 @@ function typeRole() {
   } else {
     typedEl.textContent = word.slice(0, ++cIdx);
   }
-
-  let delay = deleting ? 48 : 78;
-  if (!deleting && cIdx === word.length) { delay = 2200; deleting = true; }
-  else if (deleting && cIdx === 0)       { deleting = false; rIdx = (rIdx + 1) % roles.length; delay = 320; }
-
+  let delay = deleting ? 46 : 75;
+  if (!deleting && cIdx === word.length) { delay = 2400; deleting = true; }
+  else if (deleting && cIdx === 0)       { deleting = false; rIdx = (rIdx + 1) % roles.length; delay = 350; }
   setTimeout(typeRole, delay);
 }
 typeRole();
@@ -85,6 +90,23 @@ const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 20);
 }, { passive: true });
+
+/* ===== ACTIVE NAV LINK ===== */
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+const sectionObs = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const id = entry.target.id;
+      navLinks.forEach(link => {
+        link.style.color = link.getAttribute('href') === `#${id}` ? 'var(--g)' : '';
+      });
+    }
+  });
+}, { threshold: 0.4 });
+
+sections.forEach(s => sectionObs.observe(s));
 
 /* ===== HAMBURGER ===== */
 const hamburger  = document.getElementById('hamburger');
@@ -107,12 +129,12 @@ function countUp(el) {
   const target = parseInt(el.dataset.count);
   if (isNaN(target)) return;
   let n = 0;
-  const step = target / 28;
+  const step = target / 30;
   const t = setInterval(() => {
     n = Math.min(n + step, target);
     el.textContent = Math.floor(n);
     if (n >= target) clearInterval(t);
-  }, 38);
+  }, 36);
 }
 
 const statsObs = new IntersectionObserver(entries => {
@@ -129,12 +151,57 @@ document.querySelectorAll('.h-stats').forEach(el => statsObs.observe(el));
 /* ===== SCROLL REVEAL ===== */
 const revealObs = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-}, { threshold: 0.08 });
+}, { threshold: 0.07 });
 
 document.querySelectorAll(
-  '.pcard, .trait, .tl-item, .cert, .sg, .sec-hdr, .about-grid'
+  '.pcard, .trait, .tl-item, .cert, .sg, .sec-hdr, .about-grid, .contact-inner'
 ).forEach((el, i) => {
   el.classList.add('reveal');
-  el.style.transitionDelay = `${(i % 6) * 55}ms`;
+  el.style.transitionDelay = `${(i % 5) * 60}ms`;
   revealObs.observe(el);
+});
+
+/* ===== CARD 3D TILT ===== */
+document.querySelectorAll('.pcard').forEach(card => {
+  card.addEventListener('mousemove', e => {
+    const rect = card.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top  + rect.height / 2;
+    const dx = (e.clientX - cx) / (rect.width  / 2);
+    const dy = (e.clientY - cy) / (rect.height / 2);
+    const rotX = -dy * 4;
+    const rotY =  dx * 4;
+    card.style.transform = `translateY(-5px) perspective(800px) rotateX(${rotX}deg) rotateY(${rotY}deg)`;
+  });
+  card.addEventListener('mouseleave', () => {
+    card.style.transform = '';
+    card.style.transition = 'transform .5s ease, border-color .3s, box-shadow .3s';
+  });
+  card.addEventListener('mouseenter', () => {
+    card.style.transition = 'border-color .3s, box-shadow .3s';
+  });
+});
+
+/* ===== MAGNETIC BUTTONS ===== */
+document.querySelectorAll('.btn, .nav-cta').forEach(btn => {
+  btn.addEventListener('mousemove', e => {
+    const rect = btn.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top  + rect.height / 2;
+    const dx = (e.clientX - cx) * 0.22;
+    const dy = (e.clientY - cy) * 0.22;
+    btn.style.transform = `translate(${dx}px, ${dy}px)`;
+  });
+  btn.addEventListener('mouseleave', () => {
+    btn.style.transform = '';
+    btn.style.transition = 'transform .4s ease, background .25s, box-shadow .25s, border-color .25s, color .25s';
+  });
+  btn.addEventListener('mouseenter', () => {
+    btn.style.transition = 'background .25s, box-shadow .25s, border-color .25s, color .25s';
+  });
+});
+
+/* ===== CERT ROW STAGGER ===== */
+document.querySelectorAll('.cert').forEach((cert, i) => {
+  cert.style.transitionDelay = `${i * 30}ms`;
 });
